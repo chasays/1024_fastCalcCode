@@ -6,7 +6,9 @@ import requests
 
 class CodeSearch1024():
     def __init__(self, codeWithMask, parent=None):
-        self.url='http://cl.giit.us/register.php'
+        #如下地址需要代理，可以使用代理后的地址
+        self.url='http://t66y.com/register.php'
+
         self.codeWithMask = codeWithMask
         # self.chars = '0123456789abcdefghijklmnopqrstuvwxyz'
         self.chars = '0123456789'
